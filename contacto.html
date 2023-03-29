@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="CONTACTO.css">
+    <link rel="icon" href="IMAGENES/eco_byte__2_-removebg-preview.png">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>    
+            <nav>
+                <ul>
+                    <li><a href="SERVICIOS.html">SERVICIOS</a></li>
+                    <li><a href="ACERCA DE.html">ACERCA DE</a></li>
+                    <li class="hover"><a class="logoenlace" href="INICIO.html"><img class="logo" alt="Ecobyte" src="IMAGENES/eco_byte__2_-removebg-preview.png"></a></li>
+                    <li><a href="DONAR.html">DONAR</a></li>
+                    <li><a href="CONTACTO.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+    </header>   
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+                    <p>
+                      <label id="nomb" for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label id="mail" for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label id="tel" for="telefono" class="colocar_telefono">Teléfono
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="number" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu teléfono">
+                    </p>    
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                      <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label id="msj" for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+                    <input type="reset" name="reset" id="reset" value="Restablecer">                  
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>       
+                     
+              </form>
+        </div>  
+      </div>
+      <br><br>
+      <footer>
+        <br>
+        <div class="miembros">Andoni Zarraga, Arkaitz de los Santos, Michael Jimenez y Oier cadierno
+            <a target="_blank" href="https://twitter.com/ECOBYTE_ART"><img class="twitter" src="http://assets.stickpng.com/thumbs/5a2fe3efcc45e43754640848.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/ecobyte.co/?hl=es"><img class="instagram" src="https://www.fundacionsancebrian.com/portal/wp-content/uploads/2019/01/instagram-colourful-icon.png" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/ecobytehelp/"><img class="facebook" src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" alt=""></a>
+        </div>
+        <br>
+        <div class="copyright">EcoByte © 2022</div>
+    </footer>
+</body>
+</html>

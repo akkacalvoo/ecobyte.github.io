@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="stylesheet" href="DONAR.css">
+    <link rel="icon" href="IMAGENES/eco_byte__2_-removebg-preview.png">
+</head>
+<body>
+    <header>    
+        <section class="imagen">
+            <nav>
+                <ul>
+                    <li><a href="SERVICIOS.html">SERVICIOS</a></li>
+                    <li><a href="ACERCA DE.html">ACERCA DE</a></li>
+                    <li class="hover"><a class="logoenlace" href="INICIO.html"><img class="logo" alt="Ecobyte" src="IMAGENES/eco_byte__2_-removebg-preview.png"></a></li>
+                    <li><a href="DONAR.html">DONAR</a></li>
+                    <li><a href="CONTACTO.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="principio">
+                <div class="titulo">
+                    <h1>Recepción y Donación de Ordenadores y Portátiles</h1>
+                    <br>
+                    <p class="subtitulo">Recibimos ordenadores en donación, y los entregamos a particulares que los necesitan.</p>
+                    <br>
+
+                    <div class="box">
+                        <a id="boton1" class="button" href="#popup1">QUIERO DONAR</a>
+                    </div>
+                    
+                    <div class="box">
+                        <a id="boton2" class="button" href="#popup2">NECESITO UN ORDENADOR</a>
+                    </div>
+
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <div class="content">
+                                <h5 class="formularioh5">Quiero donar material informatico<a class="close" href="#">&times;</a></h5>
+                                <br>
+                                <p class="introducir">Introduzca sus datos:</p>
+                                <br>
+                                <form class="formulario" action="/action_page.php">
+                                    <label for="nombre">Su nombre:</label>
+                                    <input type="text" class="nombre">
+                                    <br><br>
+                                    <label for="correo">Su Correo Electrónico:</label>
+                                    <input type="text" name="correo" id="correoelectronico">
+                                    <br><br>
+                                    <label for="telefono">Su telefono</label>
+                                    <input type="number">
+                                    <br><br>
+                                    <label for="material">Material a donar:</label>
+                                    <br>
+                                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                                    <br><br>
+                                    <div class="enviar"><input type="submit" value="ENVIAR"></div>
+                                </form>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <div class="content">
+                                <h5 class="formularioh5">Necesito un ordenador<a class="close" href="#">&times;</a></h5>
+                                <br>
+                                <p class="introducir">Introduzca sus datos:</p>
+                                <br>
+                                <form class="formulario" action="/action_page.php">
+                                    <label for="nombre">Su nombre:</label>
+                                    <input id="nombre" type="text" class="nombre">
+                                    <br><br>
+                                    <label for="correo">Su Correo Electrónico:</label>
+                                    <input type="text" name="correo" id="correo">
+                                    <br><br>
+                                    <label for="telefono">Su teléfono:</label>
+                                    <input type="number" name="telefono" id="telefono">
+                                    <br><br>
+                                    <label for="material">Que necesita:</label>
+                                    <br>
+                                    <textarea name="textarea" id="textarea2" cols="30" rows="10"></textarea>
+                                    <br><br>
+                                    <div class="enviar" ><input type="submit" value="ENVIAR"></div>
+                                </form>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="imagendonar">
+                <img class="ordenador" src="https://abierta.org/desktop-svgrepo-com.svg" alt="">
+            </div>
+        </section>
+    </header>
+    <br>
+    <article class="hacemos">
+        <section class="recogida">
+            <h3 class="h3">Recogida Ordenadores</h3>
+            <p class="recogidatexto">Recibimos ordenadores, portatiles y material informatico con menos de 10 años de uso y lo acondicionamos para entregarlo posteriormente.</p>
+        </section>
+        <section class="entrega">
+            <h3 class="h3">Entrega</h3>
+            <p class="recogidatexto">Entregamos los ordenadores una vez acondicionados a personas que lo necesiten.</p>
+        </section>
+    
+        <section class="trabajamos">
+            <section class="fototrabajamos">
+                <img class="foto" src="https://abierta.org/business-recycling.jpg" alt="">
+            </section>
+            <section class="textotrabajamos">
+                <h3 class="como">Cómo trabajamos.</h3>
+                <p class="condiciones">Condiciones Generales</p>
+                <table class="tabla" border="1">
+                    <tr>
+                        <td>Recogemos material con menos de 10 años de uso.</td>
+                    </tr>
+                    <tr>
+                        <td>No podemos ir a recoger a domicilio; deben traer los ordenadores a Bilbao, cita previa.</td>
+                    </tr>
+                    <tr>
+                        <td>Entregamos bajo demanda un certificado del material recogido, garantizando la destrucción de datos o información existente en los equipos.</td>
+                    </tr>
+                    <tr>
+                        <td>Solo trabajamos en el área de Bilbao y Provincia.</td>
+                    </tr>
+                    <tr>
+                        <td>Solicite un ordenador únicamente si no tiene dinero para comprarlo.</td>
+                    </tr>
+                </table>    
+            </section>
+        </section>
+        <section class="contacto">
+            <h2 class="informacion">Informacion de Contacto</h2>
+            <ul class="listadatos">
+                <li class="listacontacto"><b>Direccion:</b> Plaza de la Casilla (48012, Bilbao)</li>
+                <li class="listacontacto"><b>Correo Electronico:</b> contacto@ecobyte.com</li>
+                <li class="listacontacto"><b>Numero de telefono:</b> +34 638 34 43 43</li>
+            </ul>
+        </section>
+        <div class="divmapa"><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.7504673348267!2d-2.945920184647209!3d43.25665127913689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e502c153f02d3%3A0x226b6dcbfa87d41!2sPlaza%20de%20la%20Casilla%2C%2048012%20Bilbao%2C%20Vizcaya!5e0!3m2!1ses!2ses!4v1668498808505!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <script src="/POP-UP.js"></script>
+    </article>
+    <br><br><br><br><br>
+    <footer>
+        <br>
+        <div class="miembros">Andoni Zarraga, Arkaitz de los Santos, Michael Jimenez y Oier cadierno
+            <a target="_blank" href="https://twitter.com/ECOBYTE_ART"><img class="twitter" src="http://assets.stickpng.com/thumbs/5a2fe3efcc45e43754640848.png" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/ecobyte.co/?hl=es"><img class="instagram" src="https://www.fundacionsancebrian.com/portal/wp-content/uploads/2019/01/instagram-colourful-icon.png" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/ecobytehelp/"><img class="facebook" src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" alt=""></a>
+        </div>
+        <br>
+        <div class="copyright">EcoByte © 2022</div>
+    </footer>
+    <script src="/BOTON.js"></script>
+</body>
+</html>
